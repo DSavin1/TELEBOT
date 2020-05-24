@@ -11,7 +11,7 @@ PATH = 'https://api.telegram.org/bot'
 
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')
 now = datetime.datetime.now()
-token = config['DEFAILT']['token']
+token = config['DEFAULT']['token']
 
 
 class BotHandler:
