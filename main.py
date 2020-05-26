@@ -82,7 +82,6 @@ def photos(bot: BotHandler, message: str, last_chat_id: str):
         # bot.send_photo(last_chat_id, doc)
         bot.send_message(last_chat_id, random.choice(SVETA_PHOTOS))
 
-
     if message.lower() in DIMA:
         bot.send_message(last_chat_id, random.choice(DIMA_PHOTOS))
 
